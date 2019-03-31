@@ -75,7 +75,7 @@ typedef struct bucket {
 **哈希表内部结构关系图**
 
 ![哈希表内部结构关系图](https://segment-xavier.oss-cn-beijing.aliyuncs.com/php%E5%BA%95%E5%B1%82%E5%8E%9F%E7%90%86%E4%B9%8B%E6%95%B0%E7%BB%84%E5%AE%9E%E7%8E%B0/Zend%E5%BC%95%E6%93%8E%E5%93%88%E5%B8%8C%E8%A1%A8%E7%BB%93%E6%9E%84%E5%92%8C%E5%85%B3%E7%B3%BB.png)
-注：图片来源于网络
+注：图片来源于网络   
 
 从上图我们可以看出，Bucket在存放数据的时候，如果存在哈希冲突，则将多个关键字映射到链表中，由此组成了双向链表
 
